@@ -1,0 +1,22 @@
+{
+    "name": "wdteam/yii2-amazeui",
+    "description": "Amaze UI 是基于社区开源项目构建的一个跨屏前端框架。",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WindsDeng",
+            "email": "winds@dlf5.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/amazeui": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wdteam\\amazeui\\": ""
+        }
+    }
+}
