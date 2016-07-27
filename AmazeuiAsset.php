@@ -7,12 +7,15 @@ use yii\web\AssetBundle;
 
 class AmazeuiAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/amazeui/dist';
+    public $sourcePath = '@bower';
     public $basePath = '@webroot/assets';
     public $css = [
-        'css/amazeui.min.css'
+        'amazeui/dist/css/amazeui.min.css'
     ];
     public $js = [
-        'js/amazeui.min.js'
+        'amazeui/dist/js/amazeui.min.js',
+        'handlebars/handlebars.min.js',
+        'amazeui/dist/js/amazeui.widgets.helper.min.js',
+        'amazeui/dist/js/amazeui.ie8polyfill.min.js'
     ];
 }
